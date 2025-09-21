@@ -2,39 +2,45 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Tribute Page</title>
-  <link rel="stylesheet" href="exercise1/styles.css">
+  <title>Task 1 - Layout</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>Steve Jobs</h1>
-  <h2>About</h2>
-  <p>Steve Jobs (1955–2011) was an American entrepreneur, co-founder of Apple Inc.
-     He revolutionized personal computers, music players, and smartphones.</p>
+  <div class="header">
+    <h1>My Website</h1>
+  </div>
 
-  <h3>Timeline</h3>
-  <ol>
-    <li>1955 – Born in San Francisco</li>
-    <li>1976 – Co-founded Apple</li>
-    <li>1984 – Launched Macintosh</li>
-    <li>2007 – Introduced iPhone</li>
-    <li>2011 – Passed away</li>
-  </ol>
+  <div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="task1.html">Task 1</a>
+    <a href="exercise1/index.html">Task 2</a>
+    <a href="task3.html">Task 3</a>
+    <a href="task4.html">Task 4</a>
+  </div>
 
-  <h3>Key Contributions</h3>
-  <ul>
-    <li>Apple Macintosh</li>
-    <li>iPod</li>
-    <li>iPhone</li>
-    <li>Pixar Animation</li>
-  </ul>
+  <div class="container">
+    <div class="sidebar">
+      <h3>Menu</h3>
+      <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+      </ul>
+    </div>
 
-  <img src="../assets/jobs.jpg" alt="Steve Jobs portrait" width="250">
+    <div class="main">
+      <h2>Welcome to Task 1</h2>
+      <p>
+        This is the main content area. 
+        On the left side, you can see the sidebar with a list of items. 
+        The layout is made using only div + float.
+      </p>
+    </div>
+  </div>
 
-  <p>
-    <a href="https://www.apple.com" target="_blank">Apple Official Website</a> | 
-    <a href="https://en.wikipedia.org/wiki/Steve_Jobs" target="_blank">Steve Jobs on Wikipedia</a>
-  </p>
-
-  <a href="https://en.wikipedia.org/wiki/Steve_Jobs" target="_blank">Learn more</a>
+  <div class="footer">
+    <p>&copy; 2025 My Website</p>
+  </div>
 </body>
 </html>
+
